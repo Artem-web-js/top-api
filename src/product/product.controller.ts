@@ -1,6 +1,6 @@
 import {Controller, Post, Body, Get, Param, Delete, Patch, HttpCode} from '@nestjs/common';
-import {ProductModel} from "./product.model";
-import {FindProductDto} from "./dto/find-product.dto";
+import {ProductModel} from './product.model';
+import {FindProductDto} from './dto/find-product.dto';
 
 @Controller('product')
 export class ProductController {
